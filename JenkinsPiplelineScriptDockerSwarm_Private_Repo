@@ -13,7 +13,7 @@ node{
     } 
     
     stage("Build Dokcer Image") {
-         sh "docker build -t 172.31.1.204:8083/java-web-app:${buildNumber} ."
+         sh "docker build -t 172.31.38.155:8083/java-web-app:${buildNumber} ."
     }
     
     
